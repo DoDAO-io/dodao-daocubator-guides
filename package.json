@@ -1,0 +1,20 @@
+{
+  "name": "dodao-daocubator-guides",
+  "version": "1.0.0",
+  "description": "Guides explaining DAOcubator Protocol",
+  "scripts": {
+    "test": "dodao-guides-processor gen-all src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoDAO-io/dodao-daocubator-guides.git"
+  },
+  "author": "robin",
+  "bugs": {
+    "url": "https://github.com/DoDAO-io/dodao-daocubator-guides/issues"
+  },
+  "homepage": "https://github.com/DoDAO-io/dodao-daocubator-guides#readme",
+  "dependencies": {
+    "dodao-guides-processor": "0.1.9"
+  }
+}
