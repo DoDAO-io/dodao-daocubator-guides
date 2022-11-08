@@ -1,0 +1,19 @@
+categories:
+  - governance
+content: How to manage funds within a DAO
+created: '2022-11-08T15:27:52.453Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: onboarding
+key: dao-treasury-daocubator
+name: DAO Treasury
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: '# Coming Soon        '
+    name: Introduction
+    stepItems: []
+    uuid: ae71ebf1-cdc8-4332-aa4b-219509fa96fd
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 06406c05-747f-4416-94ee-4650fecc662f
