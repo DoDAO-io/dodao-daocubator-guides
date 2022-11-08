@@ -1,0 +1,273 @@
+{
+  "categories": [
+    "setup"
+  ],
+  "content": "Explains how to create a DAO on Astro",
+  "created": "2022-10-13T06:41:15.956Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "onboarding",
+  "key": "create-a-dao-in-astro",
+  "name": "Create a DAO (Astro)",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "## **Introduction**\n\nA DAO is a Decentralized Autonomous Organization that exists on the Blockchain. DAOs are the future of organizations because they allow anyone, from anywhere, to become a member just by joining the community and contributing to the success of the DAO.\n\nDAO members can work on tasks at their own timing or pace, and can also be placed within committees. They can sponsor proposals or vote on proposals, allowing them to be a part of the decision-making process. This gives members a high degree of autonomy, which is one of the defining characteristics of a DAO.\n\nThere are certain components that are required to set up DAOs and they include:\n\n* Governance\n* Treasury\n* Members\n\nGovernance is set up so that members can vote on proposals (be it on-chain or off-chain). It also shows what proposals have been agreed upon. A Treasury is needed to manage the funds of the DAO. From it, every type of payment activity which could be to individual contributors or projects is made while members are groups, committees, or councils that work towards a common goal in the DAO.\n\nHowever, one major challenge that is faced when setting up DAOs is that there are different tools for various functions such as Treasury Management, Onchain Voting, Proposal creation, and so on. Also, many DAOs run on networks that have high gas fees and this can affect the operations of the DAO in the long run. \n\nThis is why Astro is really important as it is a complete application for setting up and managing DAOs on the NEAR Blockchain. On Astro, you can create a DAO, set up custom function calls to perform specific functions, vote on proposals, manage treasury, verify participants, and much more. Built on NEAR, Astro also takes away the pain of high gas fees in the management of the DAO.",
+      "name": "Introduction",
+      "stepItems": [],
+      "uuid": "878b38e1-6538-4d34-bab9-74df92741945"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "a2244e66",
+            "ab324175"
+          ],
+          "choices": [
+            {
+              "content": "Anyone anywhere can be a member",
+              "key": "a2244e66"
+            },
+            {
+              "content": "The technology is from the future",
+              "key": "d8edab2a"
+            },
+            {
+              "content": "Members can work on tasks in their own timing and pace",
+              "key": "ab324175"
+            },
+            {
+              "content": "You must be part of management within 3 months",
+              "key": "da18cb58"
+            }
+          ],
+          "content": "Why do you think most companies will operate as DAOs in the future? (Select two options)",
+          "type": "MultipleChoice",
+          "uuid": "8810d76d-eec4-431d-a6a7-17fb1586812e"
+        },
+        {
+          "answerKeys": [
+            "85c79cc9"
+          ],
+          "choices": [
+            {
+              "content": "Governance",
+              "key": "40ce783f"
+            },
+            {
+              "content": "Treasury",
+              "key": "cb69a36c"
+            },
+            {
+              "content": "Members",
+              "key": "ccf1574a"
+            },
+            {
+              "content": "Structure",
+              "key": "85c79cc9"
+            }
+          ],
+          "content": "Which of these components are NOT required to set up a DAO?",
+          "type": "SingleChoice",
+          "uuid": "13ed5bb6-6045-49c5-9de2-5c0b380e3b45"
+        },
+        {
+          "answerKeys": [
+            "a2c62b5d"
+          ],
+          "choices": [
+            {
+              "content": "Network with low gas fees",
+              "key": "a2c62b5d"
+            },
+            {
+              "content": "Where the Founder lives",
+              "key": "911bf6d6"
+            },
+            {
+              "content": "The structure of the Leadership",
+              "key": "a7cbb75d"
+            },
+            {
+              "content": "The size of the team",
+              "key": "13e153c2"
+            }
+          ],
+          "content": "Why should people set up DAOs on NEAR Blockchain?\n",
+          "type": "SingleChoice",
+          "uuid": "b79c8f4b-184f-4869-83d2-e05a7fdfeabd"
+        },
+        {
+          "answerKeys": [
+            "f2ee2a1d"
+          ],
+          "choices": [
+            {
+              "content": "A DAO that trains DAOs about marketing and growth",
+              "key": "364960cf"
+            },
+            {
+              "content": "A community of web3 lovers on the NEAR Blockchain",
+              "key": "5969ec10"
+            },
+            {
+              "content": "A tool for setting up and managing DAOs",
+              "key": "f2ee2a1d"
+            },
+            {
+              "content": "An astronomical tool for measuring planet distance from the earth",
+              "key": "ddf70677"
+            }
+          ],
+          "content": "What is Astro DAO known for?",
+          "type": "SingleChoice",
+          "uuid": "e9c4c842-6a42-4b02-8ff5-7036dc7c98d1"
+        }
+      ],
+      "uuid": "15fe5388-b787-472e-9175-9d78af678998"
+    },
+    {
+      "content": "## **Setting Up DAOCubator University on Astro.**\n\nAstro is a tool for setting up and managing DAOs on the NEAR Blockchain. On Astro, you can create a DAO, set up custom function calls to perform specific functions, vote on proposals, manage treasury, verify participants, and much more. Built on NEAR, Astro also takes away the pain of high gas fees in the management of the DAO.\n\nIn order to create a basic DAO on Astro, the following are needed:\n\n* A NEAR wallet with a minimum of 5 NEAR (you should have more than that due to fees)\n* The DAO name, purpose, link, and socials\n* The DAO Type (Foundation, Club, Corporation, or Cooperative)\n\nIn this guide, we shall be signing up **DAOcubator University** (A DAO that teaches startups and communities learn how to build and scale as a DAO) on Astro. \n\nTo get started, get a NEAR wallet [here](https://wallet.near.org/) and follow the process followed below:\n1. Open [Astro DAO](https://app.astrodao.com/) and connect your NEAR wallet.\n2. Click on “Create new DAO”\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/Create_New_DAO.jpg\" alt=\"Create New DAO\"/>\n</div>\n\n3. Input the DAO name (in this case, we’ll input DAOcubator University). The link to the DAO will read as daocubator-university.sputnik-dao.near. Once that is done, input the purpose [A brief description of the DAO]\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/DAO_Name_and_Purpose_new.jpg\" alt=\"DAO Name and Purpose\" />\n</div>\n\n4. Next is an optional field for KYC to note if the DAO (DAOcubator University) is a legal entity.\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/KYC.jpg\" alt=\"DAO KYC\" />\n</div>\n\n5. Provide the website and social links like Twitter, Discord, etc. (if available). It is also optional\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/Links_and_Socials.jpg\" alt=\"DAO Links and Socials\" />\n</div>\n\n6. Add groups to the DAO. An example is the Council (which is added by default). You could add new groups if you need to.\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/add_groups.jpg\" alt=\"DAO Groups\" />\n</div>\n\n7. Add members to the DAO as you sign-up or do this later\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/add_members.jpg\" alt=\"DAO Members\" />\n</div>\n\n8. Set how proposals will be created and the rights available in the DAO. You can choose between “Council” or “Public” or both.\n\nNote: If you select Council alone, only those set as Council members will be able to create proposals in the DAO. However, if you also select “Public” then anyone with a NEAR wallet can create a proposal.\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/Proposal_Creation.jpg\" alt=\"Proposal Creation\" />\n</div>\n\n9. You can also set voting rights given to groups in the DAO.\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/Voting_Permissions.jpg\" alt=\"Voting Permissions\" />\n</div>\n\n10. Finally, create DAO assets by uploading the logo and banner of the DAO.\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/create_DAO_Assets.jpg\" alt=\"Create DAO Assets\" />\n</div>\n\nAfter completing all the steps highlighted above, Click on “Create New DAO” and then the work is done! Congratulations, we have created DAOcubator University as a DAO on Astro. Next is to explore the core features of Astro DAO.",
+      "name": "Setting Up DAOCubator University",
+      "stepItems": [],
+      "uuid": "354f8e6e-9540-4ac8-8b3f-ec69bafcb638"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "02b41923"
+          ],
+          "choices": [
+            {
+              "content": "[Name of the DAO].sputnik.dao.near",
+              "key": "7b84d098"
+            },
+            {
+              "content": "[Name of the DAO]-sputnik-dao.near",
+              "key": "8e12417f"
+            },
+            {
+              "content": "[Name of the DAO].sputnik_dao.near",
+              "key": "65f45d47"
+            },
+            {
+              "content": "[Name of the DAO].sputnik-dao.near",
+              "key": "02b41923"
+            }
+          ],
+          "content": "Which of these is the correct structure of the DAO link on Astro?",
+          "type": "SingleChoice",
+          "uuid": "19bda992-1515-4d4a-b513-48d5f9e9a53d"
+        },
+        {
+          "answerKeys": [
+            "fe45af7c"
+          ],
+          "choices": [
+            {
+              "content": "Links and Socials",
+              "key": "8f491db5"
+            },
+            {
+              "content": "KYC",
+              "key": "9507abfc"
+            },
+            {
+              "content": "Add Members",
+              "key": "fcbe45fb"
+            },
+            {
+              "content": "DAO Name and Purpose",
+              "key": "fe45af7c"
+            }
+          ],
+          "content": "Which of these are required when signing up on Astro?",
+          "type": "SingleChoice",
+          "uuid": "ee2cf20e-f063-4d38-98ab-177421820e82"
+        }
+      ],
+      "uuid": "3618a5c9-fcd0-4cf0-8519-89f18bf3f80d"
+    },
+    {
+      "content": "## **Core Features on Astro**\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/DoDAO-io/dodao-daocubator-guides/main/images/guide_signup_on_astro/core_features.jpg\" alt=\"Core features on Astro\" />\n</div>\n\nNavigating the new DAO on Astro is quite simple and there are some core features that you should know about.\n\n* **Drafts**: These are unpublished content which could be proposals, bounties polls, etc. All drafts are shown on this tab\n\n* **Proposals**: A proposal is an idea that community members may want the DAO to implement. They are written, reviewed, and submitted for voting based on the unique processes of the DAO. On this tab, you can check the proposals that have been created and their status.\n\n* **Funds**: Here, Astro gives you a full view of the funds owned by the DAO. All funds received into the DAO show up on this tab. At this point, only the 5 NEAR deposited when signing up will be seen.\n\n* **Members**: Every participant that joins the DAO is a member. The members are placed into groups based on their level of responsibilities in the DAO. These groups could be committees, councils, or working groups. On this tab, you can see the members of the DAO in their groups.\n\n* **Settings**: Here, the DAO sets the rules that back the operations of the DAO.\n\n* **NFTs**: Non Fungible Tokens (NFTs) are unique tokens on the Blockchain that cannot be traded like cryptocurrencies. They can, however, be sold or held. Simple examples of NFTs are cryptographic artworks where only one person can own the artwork at a time. You can view the NFTs owned by the DAO here.\n\n* **Bounties**: Bounties are tasks where many members compete to win an amount by coming up with the best work. Here, you can see the bounties created by the DAO if there are any.\n\n* **Polls**: Just like bounties, polls are created to get the opinions of the members of the DAO. Any poll created in the DAO can be seen on this tab.",
+      "name": "Core Features on Astro",
+      "stepItems": [],
+      "uuid": "e50e0cfe-8ee1-4755-8380-66b9ba5a95f8"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "9d8f7073"
+          ],
+          "choices": [
+            {
+              "content": "Funds",
+              "key": "867eaa23"
+            },
+            {
+              "content": "Proposals",
+              "key": "f25911e6"
+            },
+            {
+              "content": "Members",
+              "key": "186e831f"
+            },
+            {
+              "content": "Council",
+              "key": "9d8f7073"
+            }
+          ],
+          "content": "Which of these is NOT a core feature on Astro?",
+          "type": "SingleChoice",
+          "uuid": "5a002c6d-6e20-4252-818d-141ede2467af"
+        },
+        {
+          "answerKeys": [
+            "128d3d2c"
+          ],
+          "choices": [
+            {
+              "content": "The active proposals",
+              "key": "50bcfbb6"
+            },
+            {
+              "content": "The completed proposals",
+              "key": "58f90609"
+            },
+            {
+              "content": "The proposals that have not been created",
+              "key": "128d3d2c"
+            },
+            {
+              "content": "All the proposals",
+              "key": "e4b7c162"
+            }
+          ],
+          "content": "On the proposals tab, which of these cannot be seen?",
+          "type": "SingleChoice",
+          "uuid": "f7809d0e-6d01-415b-bfd2-3ebb784b7376"
+        }
+      ],
+      "uuid": "d067766c-7758-47e6-9177-3bb9d92695da"
+    },
+    {
+      "content": "## **Conclusion**\n\nCongratulations! Having completed this guide, you should now be able to set up a DAO easily. You can now go ahead to explore further when you create your own DAO.\n\nFor further reading, refer to the following links below\n\n[https://aragon.org/how-to/structure-dao-proposals-and-build-proposal-processes](https://aragon.org/how-to/structure-dao-proposals-and-build-proposal-processes)\n\n[https://101blockchains.com/how-to-start-a-dao/](https://101blockchains.com/how-to-start-a-dao/)\n\n[https://www.investopedia.com/non-fungible-tokens-nft-5115211](https://www.investopedia.com/non-fungible-tokens-nft-5115211)",
+      "name": "Conclusion",
+      "stepItems": [],
+      "uuid": "ac70f280-8315-444c-9e95-be0fae86ef3e"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/daocubator/create_a_dao.png",
+  "uuid": "create-a-dao-in-astro"
+}

@@ -1,4 +1,7 @@
 guides:
+  - create-a-dao-in-astro.yaml
+  - council-structure-for-daos.yaml
+  - custom-function-calls.yaml
   - voting-strategies-daocubator.yaml
   - daocubator-phases-daocubator.yaml
   - dao-treasury-daocubator.yaml

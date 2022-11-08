@@ -1,0 +1,95 @@
+categories:
+  - member
+content: Explains about the DAOcubator and Astro DAOcubation Program
+created: '2022-11-08T14:44:55.346Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: onboarding
+key: astro-daocubation-program
+name: Astro DAOcubation Program
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: >-
+      ## Overview
+
+      We help founders, startups, communities, guilds and other native internet
+      entities with design & product fellowships so that they can build,
+      operationalize and scale as a DAO.
+
+
+      ## What is DAOcubator ?
+
+      DAOcubator is the incubator for modern day organizations built on Web 3.0
+      technology and practice decentralized governance. We are a DAO of DAOs
+      that help with scaling, operations and governance.
+
+
+      ## Why DAOs ?
+
+      DAOs by definition are decentralized organizations, structured to function
+      autonomously and achieve a shared common objective. Membership, decision
+      making, and funding are coordinated in public on a tamper-proof
+      blockchain.
+
+
+      ## Applications for DAOs
+
+      On top of the protocol, we are developing its first application, which
+      decentralizes hiring practices in an internet-native organization. It
+      seamlessly connects people and organizations through skills.
+
+
+      ## Are you an Incubator?
+
+      DAOcubator is all about incubators, it has funds for incubators of
+      incubator.
+              
+    name: Overview
+    stepItems: []
+    uuid: 6c523a44-947b-477d-aa44-203949a5e7dc
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - dog_or_cat
+        choices:
+          - content: Sister company of Y Combinator
+            key: dog_and_cat
+          - content: >-
+              Incubator for modern day organizations built on Web 3.0
+              technology(DAO of DAOs)
+            key: dog_or_cat
+          - content: NFT marketplace on NEAR
+            key: only_dog
+          - content: DAO governance Platform
+            key: only_cat
+        content: |
+          What is DAOcubator ? (Select one)
+        type: MultipleChoice
+        uuid: 2d0d48d5-7da4-4f2c-a6a3-a13a60373142
+      - answerKeys:
+          - 0799d4a1
+        choices:
+          - content: DAOs are not owner by a person
+            key: 4476a9bb
+          - content: DAOs use technology for managing operation
+            key: e1e051c6
+          - content: >-
+              In DAOs, membership, decision making, and funding are coordinated
+              in public on a tamper-proof blockchain
+            key: 0799d4a1
+          - content: Members of DAO share a common objective
+            key: b48472bc
+        content: What is new in DAOs as compared to coops? (Select one)
+        type: MultipleChoice
+        uuid: 37d4f210-23a1-49f3-a654-05bb83b18713
+    uuid: 5886d1bc-ef19-4b76-8398-7cf6fb0fd6ef
+  - content: >-
+      To apply fill out an application form
+      [here](https://www.daocubator.org/apply)
+    name: Application
+    stepItems: []
+    uuid: cff69d56-592c-4d19-abe5-6fd8d3538260
+thumbnail: ipfs://QmeiX2ocVdrQCA6UinptFUq4EK6G6LNstfdaon3eCLnsG1
+uuid: astro-daocubation-program
