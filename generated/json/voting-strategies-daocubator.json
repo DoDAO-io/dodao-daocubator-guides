@@ -2,8 +2,8 @@
   "categories": [
     "governance"
   ],
-  "content": "Various strategies that DAOs can use for various proposals",
-  "created": "2022-11-08T15:23:11.054Z",
+  "content": "Various strategies that DAOs can use for voting on proposals",
+  "created": "2022-11-08T15:23:39.545Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -21,5 +21,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "41269626-3c4e-4f2f-a720-62abb9bd62e9"
+  "uuid": "voting-strategies-daocubator"
 }
