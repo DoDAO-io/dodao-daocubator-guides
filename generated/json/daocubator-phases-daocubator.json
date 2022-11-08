@@ -1,0 +1,25 @@
+{
+  "categories": [
+    "overview"
+  ],
+  "content": "Phases that  a DAO progresses trough in the DAOCubator program",
+  "created": "2022-11-08T15:25:37.995Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "onboarding",
+  "key": "daocubator-phases-daocubator",
+  "name": "DAOCubator Phases",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "\n# Coming Soon        ",
+      "name": "Introduction",
+      "stepItems": [],
+      "uuid": "0ce2453c-30ca-484c-a7e1-6be309020028"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "bcb8a9f9-c958-4944-9398-5b3e69dd1aa3"
+}
