@@ -1,0 +1,19 @@
+categories:
+  - governance
+content: Various strategies that DAOs can use for various proposals
+created: '2022-11-08T15:23:11.054Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: onboarding
+key: voting-strategies-daocubator
+name: Voting Strategies
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: '# Coming Soon        '
+    name: Introduction
+    stepItems: []
+    uuid: 833d4074-83a9-49b8-b0db-918d95128ba8
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 41269626-3c4e-4f2f-a720-62abb9bd62e9
