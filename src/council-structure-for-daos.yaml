@@ -1,6 +1,6 @@
 categories: []
 content: This guide explains the Council governance structure of DAOs
-created: '2022-10-22T12:47:19.986Z'
+created: '2022-12-15T21:53:13.510Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -8,7 +8,6 @@ key: council-structure-for-daos
 name: Council Structure
 publishStatus: Live
 showIncorrectOnCompletion: true
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/daocubator/council_structure.png
 steps:
   - content: >
       ## **DAO Governance - Proposals and Voting Processes**
@@ -588,4 +587,5 @@ steps:
     name: Recommendation
     stepItems: []
     uuid: 3346230b-6270-4384-b1af-46bb5dc2f25a
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/daocubator/council_structure.png
 uuid: council-structure-for-daos

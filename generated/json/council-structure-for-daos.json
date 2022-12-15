@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "This guide explains the Council governance structure of DAOs",
-  "created": "2022-10-22T12:47:19.986Z",
+  "created": "2022-12-15T21:53:13.510Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -10,7 +10,6 @@
   "name": "Council Structure",
   "publishStatus": "Live",
   "showIncorrectOnCompletion": true,
-  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/daocubator/council_structure.png",
   "steps": [
     {
       "content": "## **DAO Governance - Proposals and Voting Processes**\n\nGovernance is one of the key elements of any organization. It provides leadership and direction to the strategy of the organization. Before DAOs, organizations operate a centralized system where people are employed to take decisions on behalf of the whole organization. This means that decisions taken by Executives determine how the organization grows and if it fails, they also take responsibility for it.\n\nHowever, Decentralized Autonomous Organizations (DAOs), operate a transparent system where rather than have a few people take all the decisions, the community work together by sharing and discussing ideas, developing proposals for ideas formed, and having them voted upon. If the proposal is valuable to the community, it is voted for and approved by the community for implementation and if it is not, then it is discarded.\n\nThis is one of the reasons DAOs are considered the future of organizations as they are inclusive, democratic, and transparent.\n\n## **Challenges with Fully Decentralized DAOs**\n\nA DAO by its basic definition is a decentralized entity. Anyone can be a member if interested in what the DAO is building and contribute their skills and time to the growth of the DAO. It also gives them the opportunity to come up with proposals that will develop further, the area of interest of the DAO.\n\nToday, DAOs have tens of thousands of members within their communities that are actively involved in shaping the future of the DAO. Now, imagine the time it will take if every member of the community comes up with a proposal and everything is to be decided by the community. The DAO may never be able to finish up as it will take a lot of time to go through all the proposals and vote on them.\n\nAlso, certain activities are strategic while some are trivial so creating proposals for every process or activity within the DAO would not yield many results considering the time put into developing it, hence the need for Councils.\n\nFinally, if the process becomes too tedious or lacks value, participation becomes quite low and this gradually defeats the concept of democratization in DAOs.\n\n## **Councils**\n\nThe Council Structure in DAOs is a system that selects or elects a specified group of people to serve as leaders of the community so as to manage high-level processes as well as monitor work progress. A number of DAOs are using this model since it makes work more sustainable (putting responsibilities on the members of the Council) and is widely accepted by Governments. \n\nBy having a Council structure, some of the proposals that would have taken the community a long time to approve due to conflict of ideas are done within record time. Also, strategy and execution within DAOs are aligned within a particular direction that the Council has taken. Different DAOs have various names for their Councils, however, the function remains the same.\n",
@@ -234,5 +233,6 @@
       "uuid": "3346230b-6270-4384-b1af-46bb5dc2f25a"
     }
   ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/daocubator/council_structure.png",
   "uuid": "council-structure-for-daos"
 }
